@@ -20,5 +20,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('login.urls')),
     url(r'^feed/', include('feed.urls')),
-    url(r'^validate/',include('login.urls'))
+    url(r'^solve/',include('ide.urls'))
 ]
